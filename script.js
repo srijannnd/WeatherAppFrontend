@@ -1,4 +1,4 @@
-const url = "http://127.0.0.1:5000/weather_data";
+const url = "https://weather-app-srijan-a10b83ebda33.herokuapp.com/weather_data";
 
 function getWeather() {
     const zip = document.getElementById('zip').value;
