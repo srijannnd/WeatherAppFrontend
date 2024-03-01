@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="user-input">
+            <label for="zip">Enter Your Zip Code: </label>
+            <input type="text" id="zip" placeholder="Zip Code">
+            <input value="New York, Los Angeles, London" type="text" id="cities" placeholder="New York, Los Angeles, London">
+            <button onclick="getWeather()">Get Weather</button>
+        </div>
+        <div class="weather-cards" id="weatherCards">
+            <!-- Weather cards will be dynamically added here -->
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
